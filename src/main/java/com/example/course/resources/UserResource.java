@@ -12,6 +12,7 @@ import com.example.course.entities.User;
 public class UserResource {
 	
 	// CONTROLADOR REST QUE RESPONDE NO CAMINHO USERS
+	// NO NAVEGADOR = LOCALHOST:8080/USERS PARA VER A RESPOSTA.
 	
 	@GetMapping
 	public ResponseEntity<User> findAll(){
